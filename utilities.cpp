@@ -10,4 +10,10 @@ namespace foo
 	{
 		cout << "Hello: [" << g_value << "]\n";
 	}
+
+	static void sayBye()
+	{
+		cout << "Goodbye\n";
+	}
+	// Static function has external linker. Stays inside this module.
 }
