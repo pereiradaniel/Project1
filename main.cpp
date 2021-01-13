@@ -28,6 +28,9 @@ int main(int argc, char* argv[])
 
 	constexpr int size = 9;	// constexpr: the value cannot be changed AND must be known at compile time.
 	short arr[getValue(3)];
-
+	//for (int i = 0; i < getValue(3); i++)
+	//{
+	//	cout << arr[i];
+	//}
 
 }
