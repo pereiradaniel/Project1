@@ -9,5 +9,10 @@ namespace foo
 							// Extern means it is JUST a declaration. functions are extern by default.
 							// exertn int g_value = 7; <- This renders extern invalid.
 	void sayBye();
+
+	struct Foo
+	{
+		const int m_val;	// Constants do not require their value to be known at runtime.
+	};
 }
 #endif
